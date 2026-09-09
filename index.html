@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>모아세 · MOASE</title>
+  <style>
+    :root { color-scheme: light; --ink:#2f2a22; --muted:#6d665b; --cream:#fff9eb; --sage:#657b52; --apricot:#ef7148; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif; color:var(--ink); background:linear-gradient(145deg,#f3f5df,#fff4da 55%,#f8d7bd); }
+    main { max-width:720px; margin:0 auto; padding:56px 20px 72px; }
+    .brand { display:inline-block; color:var(--sage); font-weight:800; letter-spacing:.08em; text-decoration:none; }
+    .card { margin-top:28px; padding:32px; border:1px solid rgba(101,123,82,.2); border-radius:28px; background:rgba(255,249,235,.92); box-shadow:0 18px 50px rgba(75,62,38,.13); }
+    h1 { margin:10px 0 12px; font-size:clamp(30px,6vw,46px); line-height:1.15; }
+    p { line-height:1.7; }
+    .muted { color:var(--muted); }
+    nav { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+    nav a, .button { display:inline-block; padding:11px 16px; border-radius:999px; background:#f5ead0; color:var(--ink); text-decoration:none; font-weight:700; }
+    nav a.primary, .button.primary { color:#fff; background:var(--apricot); }
+    h2 { margin-top:32px; font-size:22px; }
+    li { margin:8px 0; line-height:1.6; }
+    footer { margin-top:24px; color:var(--muted); font-size:13px; }
+    @media (max-width:520px) { main { padding-top:32px; } .card { padding:24px 20px; border-radius:22px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="brand" href="./">MOASE · 모아세</a>
+    <section class="card">
+      <h1>같은 그림 셋,<br>마음은 가볍게.</h1>
+      <p class="muted">오프라인으로 즐기는 포근한 트리플 타일 퍼즐입니다.</p>
+      <nav>
+        <a class="primary" href="./privacy.html">개인정보 처리방침</a>
+        <a href="./support.html">문의 및 지원</a>
+      </nav>
+    </section>
+    <footer>MOASE 1.0 · Build 14 · © 2026 SeongMin Seo</footer>
+  </main>
+</body>
+</html>
